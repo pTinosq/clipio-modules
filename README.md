@@ -1,4 +1,4 @@
-# Clipio Modules
+# Clipio Modules (W.I.P INCOMPLETE)
 
 Welcome to the Clipio Modules repository! This repository serves as the module exchange for [Clipio](https://github.com/pTinosq/clipio), a rapid clipboard management tool. Clipio Modules is a collection of community-contributed modules that enhance the functionality of Clipio.
 
