@@ -1,0 +1,8 @@
+{
+    "name": "Uppercase",
+    "version": "1.0.0",
+    "description": "Converts text to Uppercase.",
+    "main": "module.js",
+    "author": "ptinosq",
+    "contributors": []
+}
