@@ -37,7 +37,7 @@ jobs:
         missing_keys = [key for key in required_keys if key not in manifest]
 
         if missing_keys:
-            print(f'Error: The following keys are missing in manifest: {", ".join(missing_keys)}')
+            print("Error: The following keys are missing in manifest: " + ", ".join(missing_keys))
             exit(1)
         else:
             print('All required keys found in manifest')
