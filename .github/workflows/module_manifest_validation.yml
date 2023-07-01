@@ -1,9 +1,6 @@
 name: Module Manifest Validation
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
@@ -14,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -23,14 +20,17 @@ jobs:
 
     - name: Check main entry point exists
       run: |
-        python -c "
+        import os
         import json
-        try:
-          with open('module-manifest.json') as f:
-            manifest = json.load(f)
-        except FileNotFoundError:
+
+        manifest_path = os.path.join(os.getenv('GITHUB_WORKSPACE'), 'module-manifest.json')
+        print(manifest_path)
+        if not os.path.exists(manifest_path):
           print('Error: module-manifest.json not found')
           exit(1)
+
+        with open(manifest_path) as f:
+          manifest = json.load(f)
 
         required_keys = ['name', 'version', 'description', 'main', 'author', 'contributors']
 
@@ -42,4 +42,3 @@ jobs:
         else:
           print('All required keys found in manifest')
           exit(0)
-        "
