@@ -3,7 +3,7 @@ function run(clipboardContent) {
     return "";
   }
 
-  return Buffer.from(clipboardContent, "base64").toString("utf8");
+  return Buffer.from(clipboardContent, "utf-8").toString("base64");
 }
 
 module.exports = {
