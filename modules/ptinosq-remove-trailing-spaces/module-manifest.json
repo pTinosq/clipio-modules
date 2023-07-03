@@ -1,0 +1,8 @@
+{
+    "name": "Remove trailing spaces",
+    "version": "1.0.0",
+    "description": "Remove trailing spaces from the star and end of the text",
+    "main": "module.js",
+    "author": "ptinosq",
+    "contributors": []
+}
