@@ -1,6 +1,6 @@
 {
     "name": "Google Translate",
-    "version": "1.0.0b",
+    "version": "1.0.0a",
     "description": "Uses Google Translate to translate text.",
     "main": "module.js",
     "author": "ptinosq",
