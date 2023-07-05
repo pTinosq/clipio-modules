@@ -1,6 +1,6 @@
 {
     "name": "Space to underscore",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Replace spaces with underscores in file names",
     "main": "module.js",
     "author": "ptinosq",

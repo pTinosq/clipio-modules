@@ -1,6 +1,6 @@
 {
     "name": "Remove formatting",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Removes formatting from text",
     "main": "module.js",
     "author": "ptinosq",
