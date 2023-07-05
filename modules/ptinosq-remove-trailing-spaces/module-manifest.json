@@ -4,5 +4,8 @@
     "description": "Remove trailing spaces from the star and end of the text",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "formatting"
+    ]
 }

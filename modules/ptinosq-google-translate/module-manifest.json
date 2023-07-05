@@ -4,5 +4,8 @@
     "description": "Uses Google Translate to translate text.",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "conversion"
+    ]
 }

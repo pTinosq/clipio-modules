@@ -4,5 +4,9 @@
     "description": "Replace spaces with underscores in file names",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "formatting",
+        "development"
+    ]
 }

@@ -4,5 +4,10 @@
     "description": "Converts text to Base64",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "development",
+        "conversion",
+        "cryptography"
+    ]
 }

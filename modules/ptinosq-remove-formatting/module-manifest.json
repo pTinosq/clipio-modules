@@ -4,5 +4,8 @@
     "description": "Removes formatting from text",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "formatting"
+    ]
 }

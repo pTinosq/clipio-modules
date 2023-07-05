@@ -4,5 +4,8 @@
     "description": "Converts text to uppercase.",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "formatting"
+    ]
 }

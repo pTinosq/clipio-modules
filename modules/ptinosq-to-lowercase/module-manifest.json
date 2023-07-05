@@ -4,5 +4,8 @@
     "description": "Converts text to lowercase.",
     "main": "module.js",
     "author": "ptinosq",
-    "contributors": []
+    "contributors": [],
+    "tags": [
+        "formatting"
+    ]
 }
