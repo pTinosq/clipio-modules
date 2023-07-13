@@ -44,4 +44,3 @@ By contributing your module to the Clipio Modules repository, you agree to licen
 ---
 
 We appreciate your valuable contributions to the Clipio Modules repository and the enhancement of the Clipio experience. Thank you for your dedication and support!
-
